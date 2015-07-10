@@ -224,9 +224,11 @@ public class ControllersActivity extends ActionBarActivity {
         String previousMac = addrMac;
         if( !isConnected(previousMac) )
             addrMac = addrMac.substring(0, addrMac.length() - 2) + SSID.toLowerCase().substring(SSID.length() - 2);
-        Log.d( "prueva device", addrMac + " --- " + addrIP );
+        Log.d( "prueba device", addrMac + " --- " + addrIP );
         if( !devices.containsAddr( addrMac ) ) {
+            Log.d( "lopjs device", addrMac + " --- " + addrIP );
             if( util.validIP(addrIP) && util.validMac(addrMac.replace( ":", "" ).toUpperCase()) ){
+                Log.d( "hfdjshfjds device", addrMac + " --- " + addrIP );
                 devices.addItem(addrIP, addrMac);
                 ItemController item = new ItemController(devices.size(), addrMac, previousMac, "Aw Lumina " + devices.size(), isConnected(previousMac)? CONNECTED: DISCOVERED);
                 listItems.add(item);

@@ -45,12 +45,14 @@ public class Utils {
     }
 
     public String getSSID(){
+        String ssid = "";
         if(isWifiConnection()) {
             WifiManager wifi = (WifiManager) myContext.getSystemService(Context.WIFI_SERVICE);
             WifiInfo info = wifi.getConnectionInfo();
-            return info.getSSID();
+            ssid = info.getSSID();
+            return ssid.replace("\"", "");
         }
-        return "";
+        return ssid;
     }
 
     public String getDeviceIP(){
