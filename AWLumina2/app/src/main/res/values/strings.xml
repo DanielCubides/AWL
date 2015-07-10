@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">AWLumina</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textoControlador">idTextoControlador</string>
+    <string name="title_activity_banner">BannerActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="about">Versión 1.0.\nJunio 2015</string>
+    <string name="url">www.autowaveco.com</string>
+
+    <string name="instrucciones1">AWLumina incluye un controlador Wi-Fi, un cable USB y un adaptador para conectar a la corriente eléctrica.</string>
+    <string name="instrucciones2">Conecte un extremo del cable USB al controlador Wi-Fi y el otro extremo al adaptador de la corriente.</string>
+    <string name="instrucciones3">Conecte el adaptador al tomacorriente, el indicador SYS del controlador Wi-Fi iniciará a parpadear.</string>
+    <string name="instrucciones4">En su teléfono celular encienda el Wi-Fi y conéctese a la red milight disponible.</string>
+    <string name="instrucciones5">Inicie la aplicación AWLumina en su celular, en la pantalla Controladores aparecerán los dispositivos milight disponibles, seleccione el que desea configurar.</string>
+    <string name="instrucciones6">Se iniciará la pantalla de enlace Wi-fi, desde la cuál podrá seleccionar la red Wi-Fi que controlará el dispositivo, luego ingrese la contraseña de red.</string>
+    <string name="instrucciones7">El controlador Wi-Fi se ha enlazado, el indicador link se mantendrá encendido y el indicador SYS parpadeará.</string>
+    <string name="instrucciones8">Ahora puede iniciar e añadir sus luces LED a cada uno de los cuatro grupos, e iniciar a controlar su encendido/apagado, la intensidad del brillo y graduar si desea una luz cálida o una luz fría.</string>
+    <string name="instrucciones9">Puede utilizar el panel de control general, o si lo desea puede usar el panel de cada grupo.</string>
+    <string name="instrucciones10">PANEL DE CONTROL GENERAL</string>
+    <string name="instrucciones11">PANEL DE CONTROL DE GRUPOS</string>
+
+    <string name="awlumina">AW Lumina </string>
+    <string name="space">&#160;&#160;&#160;</string>
+    <string name="spacedoble">&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="spacetriple">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="title_activity_enlace">Enlace Wi-Fi</string>
+
+    <string name="buscar_red">Buscar redes Wi-Fi</string>
+
+    <string name="red">Red</string>
+
+    <string name="color">Color&#160;</string>
+    <string name="brillo">Brillo</string>
+
+    <string name="grupos">Grupos</string>
+    <string name="grupo1">Grupo 1&#160;</string>
+    <string name="grupo2">Grupo 2&#160;</string>
+    <string name="grupo3">Grupo 3&#160;</string>
+    <string name="grupo4">Grupo 4&#160;</string>
+
+    <string name="anadir">&#160;Añadir&#160;</string>
+    <string name="suprimir">Suprimir</string>
+
+    <string name="anadir_suprimir">Para añadir o suprimir un bombillo, apague y encienda el interruptor, cuando encienda el bombillo presione la opción elegida. Al añadir el bombillo LED a un grupo parpadeará 3 veces, cuando se suprima parpadeará 10 veces.</string>
+    <string name="title_activity_menu">Menu principal</string>
+
+    <string name="menu_controladores">Lista de controladores</string>
+    <string name="menu_panel">Panel de control</string>
+    <string name="menu_instrucciones">Instrucciones</string>
+    <string name="menu_acerca">Acerca de nosotros</string>
+    <string name="title_activity_controladores">Controladores</string>
+    <string name="title_activity_panel">PanelActivity</string>
+    <string name="title_activity_instrucciones">InstruccionesActivity</string>
+    <string name="title_activity_acerca">Acerca de AutoWave</string>
+
+    <string name="title_panel_general">Aw Lumina</string>
+
+    <string name="uno_de_siete">1 de 7</string>
+    <string name="dos_de_siete">2 de 7</string>
+    <string name="tres_de_siete">3 de 7</string>
+    <string name="cuatro_de_siete">4 de 7</string>
+    <string name="cinco_de_siete">5 de 7</string>
+    <string name="seis_de_siete">6 de 7</string>
+    <string name="siete_de_siete">7 de 7</string>
+
+    <string name="conectado">Se ha establecido la conexión</string>
+    <string name="noConectado">No se ha podido conectar con la red</string>
+
+    <string name="contentImage">imagenes menú</string>
+
+    <string name="clave">Digite su clave</string>
+
+    <string name="editar">Editar</string>
+    <string name="cambiarGrupo">Nombre de grupo</string>
+    <string name="cambiarGeneral">Nombre de controlador</string>
+
+</resources>
+
